@@ -12,7 +12,7 @@ class TabLink {
   
     // Using the Item element, create a new instance of the TabItem class
     this.tabItem = new TabItem(this.itemElement)
-    
+   
     // Add a click event listener on this instance, calling the select method on click
     this.element.addEventListener('click', () => this.select())
   };
@@ -66,4 +66,3 @@ links.forEach((link) => {
 // - In your .forEach() method's callback function, return a new instance of TabLink and pass in each link as a parameter
 
 
-// links = document.querySelectorAll();
